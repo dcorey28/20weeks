@@ -1,0 +1,38 @@
+# Site settings
+title: 20 Weeks to Fit
+description: "Follow my 20 week journey to go from fat to fit."
+url: ""
+author:
+  name: "David Corey"
+  email: ""
+  url: ""
+
+# Build settings
+baseurl: /
+markdown: kramdown
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 8
+paginate_path: /page:num/
+
+# Default values
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+
+# Custom variables
+version: "1.1.0"
+
+# Options
+custom_header: false
+custom_nav_footer: false
+reverse: true
