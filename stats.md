@@ -2,7 +2,8 @@
 layout: page
 title: Stats
 ---
-#Stats
+# Stats
+
 *Body weight is updated weekly. Waist and belt measurements are updated every 2 weeks. Lifts are updated about every 4 weeks just depending on where strength week lands*
 
 ## Weight
